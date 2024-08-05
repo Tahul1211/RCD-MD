@@ -21,15 +21,15 @@ global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029Vag1WQFJf05d
 global.website = process.env.GURL || "https://whatsapp.com/channel/0029Vag1WQFJf05dF0pQeU3u";
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/1f4e6e1cc2ed1662adb36.jpg";
 global.devs = "94789958225";
-global.sudo = process.env.SUDO || "919083366564";
-global.owner = process.env.OWNER_NUMBER || "919083366564";
+global.sudo = process.env.SUDO || "94789958225,94757660788,94770730717,94785274495,94753574803";
+global.owner = process.env.OWNER_NUMBER || "94789958225,94753574803";
 global.style = process.env.STYLE || "3";
 global.gdbye = process.env.GOODBYE || "false";
-global.wlcm = process.env.WELCOME || "false";
+global.wlcm = process.env.WELCOME || "true";
 global.warncount = process.env.WARN_COUNT || 3;
 global.disablepm = process.env.DISABLE_PM || "false";
 global.disablegroup = process.env.DISABLE_GROUPS || "false",
-global.MsgsInLog = process.env.MSGS_IN_LOG || "false";
+global.MsgsInLog = process.env.MSGS_IN_LOG || "true";
 global.userImages = process.env.USER_IMAGES || "";
 global.waPresence = process.env.WAPRESENCE || "recording";
 global.readcmds = process.env.READ_COMMAND || "false";
@@ -51,12 +51,12 @@ module.exports = {
   HANDLERS: process.env.PREFIX || ".",
   BRANCH: process.env.BRANCH || "main",
   VERSION: process.env.VERSION || "1.0.0",
-  caption: process.env.CAPTION || "𝗥𝗔𝗛𝗨𝗟 𝗠𝗗 𝗣𝗢𝗪𝗘𝗥 𝗕𝗬 🇮🇳",
-  author: process.env.PACK_AUTHER || "𝗥𝗔𝗛𝗨𝗟",
+  caption: process.env.CAPTION || "𝗥𝗖𝗗 𝗠𝗗 𝗣𝗢𝗪𝗘𝗥 𝗕𝗬 🇱🇰",
+  author: process.env.PACK_AUTHER || "𝐑𝐂𝐃",
   packname: process.env.PACK_NAME || "♥️",
-  botname: process.env.BOT_NAME || "𝗥𝗔𝗛𝗨𝗟 𝐌𝐃",
-  ownername: process.env.OWNER_NAME || "𝗥𝗔𝗛𝗨𝗟 𝗦𝗔𝗗 𝗕𝗢𝗬",
-  errorChat: process.env.ERROR_CHAT || "919083366564",
+  botname: process.env.BOT_NAME || "𝐑𝐂𝐃 𝐌𝐃",
+  ownername: process.env.OWNER_NAME || "𝗥𝗖𝗗 𝗧𝗘𝗔𝗠",
+  errorChat: process.env.ERROR_CHAT || "94789958225",
   KOYEB_API: process.env.KOYEB_API || "false",
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "",
   OPENAI_API_KEY: process.env.OPENAI_API_KEY || "",
